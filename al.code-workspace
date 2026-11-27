@@ -4,6 +4,9 @@
       "path": "CronusFreight"
     },
     {
+      "path": "CronusFreightTest"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
