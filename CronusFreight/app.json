@@ -1,7 +1,7 @@
 {
-  "id": "6ea6ed8e-021c-401e-a9a8-aa516f2514ed",
-  "name": "CronusFreight",
-  "publisher": "Cronus",
+  "id": "daad4388-5ad3-486f-8a1c-f4903229ac1d",
+  "name": "CronosFreight",
+  "publisher": "Default Publisher",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -13,19 +13,28 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "29.0.0.0",
   "idRanges": [
     {
       "from": 50100,
       "to": 50149
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "18.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "c5d1d75f-50a6-4f94-9584-20cbd661750c",
+      "name": "CronusFreightTest",
+      "publisher": "Default Publisher"
+    }
+  ]
 }

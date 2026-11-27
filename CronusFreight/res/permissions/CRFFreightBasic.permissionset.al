@@ -1,0 +1,37 @@
+permissionset 50100 "CRF Freight Basic"
+{
+    Assignable = true;
+    Caption = 'Cronus Freight - Basic';
+    Permissions = table "CRF Freight Setup" = X,
+        tabledata "CRF Freight Setup" = R,
+        table "CRF Shipment Header" = X,
+        tabledata "CRF Shipment Header" = RIMD,
+        table "CRF Shipment Line" = X,
+        tabledata "CRF Shipment Line" = RIMD,
+        page "CRF Shipment List" = X,
+        page "CRF Shipment Card" = X,
+        page "CRF Shipment Subform" = X,
+        tabledata Customer = R,
+        tabledata "No. Series" = R,
+        tabledata "CRF Carrier Rate" = RIMD,
+        tabledata "CRF Freight Cue" = RIMD,
+        table "CRF Carrier Rate" = X,
+        table "CRF Freight Cue" = X,
+        codeunit "CRF Assisted Setup Subs" = X,
+        codeunit "CRF Carrier A" = X,
+        codeunit "CRF Carrier B" = X,
+        codeunit "CRF Freight Mgt" = X,
+        codeunit "CRF Install" = X,
+        codeunit "CRF No Carrier" = X,
+        codeunit "CRF Sales Post Subs" = X,
+        codeunit "CRF Update Status" = X,
+        codeunit "CRF Upgrade" = X,
+        codeunit "CRF Upgrade Tags" = X,
+        xmlport "CRF Import Carrier Rates" = X,
+        page "CRF Carrier Rates" = X,
+        page "CRF Freight Activities" = X,
+        page "CRF Freight Setup" = X,
+        page "CRF Freight Setup Guide" = X,
+        page "CRF Shipment API" = X,
+        page "CRF Shipment Line API" = X;
+}
